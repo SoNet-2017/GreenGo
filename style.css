@@ -51,7 +51,7 @@ header {
     right: 0;
     width: 100%;
     text-align: center;
-    background: #4276b6;
+    background: #53864f;
     z-index: 99;
     min-height: 76px;
 }
@@ -59,7 +59,7 @@ header {
 header h1 {
     font: 40px/48px 'Copse', "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #f3f3f3;
-    text-shadow: 0px 2px 0px #235796;
+    text-shadow: 0px 2px 0px #2e4f2b;
     margin: 0px;
     white-space: nowrap;
     overflow: hidden;
@@ -84,7 +84,7 @@ header p {
     margin-right: -382px;
     position: fixed;
     top: 115px;
-    background: #ffcc00;
+    background: #edd364;
     border: 1px solid #f0b500;
     border-radius: 0px 2px 2px 0px;
     padding-right: 10px;
