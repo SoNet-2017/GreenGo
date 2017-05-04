@@ -75,6 +75,9 @@ header p {
     margin: 0px;
 }
 
+#persona {
+    font-size: 300px;
+}
 
 #banner {
     z-index: 100; /*livelli*/
