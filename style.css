@@ -183,7 +183,8 @@ nav ul {
     list-style-image: none;
     font-size: 14px;
     line-height: 24px;
-    background: url(images/icon-menu.png) no-repeat 10px 11px;
+    overflow: hidden;
+
 }
 
 nav ul li {
@@ -217,15 +218,15 @@ nav ul a:hover {
     background: url(.../images/icon-check.png) no-repeat 10px 7px;
 }
 
-footer {
-    width: 180px;
-    position: fixed;
-    left: 50%;
-    margin-left: -530px;
-    bottom: 20px;
-    text-align: right;
-    line-height: 16px;
-}
+/*footer {*/
+    /*width: 180px;*/
+    /*position: fixed;*/
+    /*left: 50%;*/
+    /*margin-left: -530px;*/
+    /*bottom: 20px;*/
+    /*text-align: right;*/
+    /*line-height: 16px;*/
+/*}*/
 
 img[alt=diagram1] {
     width: 50%;
