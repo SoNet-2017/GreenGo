@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd5dc92c-4d8c-47ec-8b38-ff03e53d5afc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Flowchart_Generale.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Flowchart_Mercato.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Flowchart_Ricette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/images/Flowchart_Tutorial.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -24,8 +22,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="279" column="12" lean-forward="false" selection-start-line="279" selection-start-column="12" selection-end-line="279" selection-end-column="12" />
+            <state relative-caret-position="50">
+              <caret line="289" column="22" lean-forward="true" selection-start-line="289" selection-start-column="22" selection-end-line="289" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -93,6 +91,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-3" />
     <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="773" />
@@ -112,6 +111,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -140,7 +140,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -251,7 +250,8 @@
       <workItem from="1494770540588" duration="1507000" />
       <workItem from="1495027281345" duration="124000" />
       <workItem from="1495028038789" duration="2992000" />
-      <workItem from="1495036190423" duration="1817000" />
+      <workItem from="1495036190423" duration="1889000" />
+      <workItem from="1495051340221" duration="1185000" />
     </task>
     <task id="LOCAL-00001" summary="vetrina">
       <created>1494770655957</created>
@@ -267,14 +267,21 @@
       <option name="project" value="LOCAL" />
       <updated>1494770732372</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="aggiunta flow chart: generale, ricette, mercato">
+      <created>1495040106668</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1495040106668</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14126000" />
+    <option name="totallyTimeSpent" value="15383000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="773" extended-state="6" />
+    <frame x="-3" y="23" width="1280" height="773" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
@@ -303,13 +310,43 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vetrina" />
-    <option name="LAST_COMMIT_MESSAGE" value="vetrina" />
+    <MESSAGE value="aggiunta flow chart: generale, ricette, mercato" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiunta flow chart: generale, ricette, mercato" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vetrina/GreenGo.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vetrina/GreenGo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="16" lean-forward="false" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -439,8 +476,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="279" column="12" lean-forward="false" selection-start-line="279" selection-start-column="12" selection-end-line="279" selection-end-column="12" />
+        <state relative-caret-position="50">
+          <caret line="289" column="22" lean-forward="true" selection-start-line="289" selection-start-column="22" selection-end-line="289" selection-end-column="22" />
           <folding />
         </state>
       </provider>
