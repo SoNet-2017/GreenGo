@@ -1,257 +1,131 @@
-body {
-    font: 14px/22px 'Quattrocento Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #666;
-    background: #eae6d1;
-}
-
-h1 {
-    font-size: 28px;
-}
-
-h2 {
-    font-size: 24px;
-    color: #393939;
-}
-
-h3, h4, h5, h6 {
-    color: #666666;
-}
-
-h3 {
-    font-size: 18px;
-}
-
-
-th {
-    text-align: left;
-    padding: 5px 10px;
-    border-bottom: 1px solid #e5e5e5;
-    color: #444;
-}
-
-td {
-    text-align: left;
-    padding: 5px 10px;
-    border-bottom: 1px solid #e5e5e5;
-    border-right: 1px solid #ffcc00;
-}
-
-td:first-child {
-    border-left: 1px solid #ffcc00;
-}
-
-
-
-header {
-    padding: 25px 20px 40px 20px;
+body{
     margin: 0;
+}
+
+.navbar {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    background: #53864f;
-    z-index: 99;
-    min-height: 76px;
-}
+    width:100%;
 
-header h1 {
-    font: 40px/48px 'Copse', "Helvetica Neue", Helvetica, Arial, sans-serif;
-    color: #f3f3f3;
-    text-shadow: 0px 2px 0px #2e4f2b;
-    margin: 0px;
-    white-space: nowrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
-    text-overflow: ellipsis;
-    -o-text-overflow: ellipsis;
-    -ms-text-overflow: ellipsis;
+    background-color: #18562c;
+
 }
 
-header p {
-    color: #d8d8d8;
-    text-shadow: rgba(0, 0, 0, 0.2) 0 1px 0;
-    font-size: 18px;
-    margin: 0px;
+.navbar li { float: right; }
+
+.navbar li a {
+    display: block;
+    color: #bdd4c1;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-family: Verdana, sans-serif;
+    letter-spacing: 2px;
+    font-size: 10px;
+}
+
+.navbar li a:hover { background-color: #349454;
+    color: #ffffff;}
+
+.subseciton {
+    padding: 30px 13% 50px;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+    color: #211e19;
+    font-family: Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 9px;
+    letter-spacing: 1px;}
+
+h2 { font-weight: lighter;
+    padding: 20px;}
+
+a { text-decoration: none;
+    color: #18562c; }
+.subseciton a:hover { color: #349454; }
+
+#team {
+    /*  position: relative;
+    left: 8%; */
+    width: 100%;
+    font-style: italic;
+}
+
+#team th {
+    font-weight: lighter; font-size: 110%;
+    padding: 15px ;
+}
+
+#team td {
+    padding-right:  30px;
+    padding-left:  30px;}
+
+
+.paragraph {
+    padding: 30px 13% 50px;
+    /*padding-top: 30px;
+        padding-bottom: 50px;
+        padding-left: 15% ;
+        padding-right: 15%;*/
+    border-bottom: 1px solid lightgray;
+    color: #211e19;
+    font-family: Verdana, sans-serif;
+    font-weight: lighter;
+    font-size: 9px;
+    text-align: justify;
+    letter-spacing: 1px;}
+
+h3 { font-weight: lighter;
+    padding: 20px 0 10px 0;}
+
+h4 { font-weight: lighter;
+    padding: 6px 0 1px;}
+
+.funzionalita  {
+    width: "100%";
+    padding: 20px 0 40px 0;
+    margin:20px;
+    border-collapse: collapse;
+}
+
+.funzionalita th {
+    font-weight: lighter;
+    font-size: 120%;
+    color: #18562c;
+    padding: 15px;
+    border: 1px solid #bdd4c1;
+}
+
+.funzionalita td {
+    /* padding: 5px 15px 7px 15px; */
+    padding: 15px;
+    border: 1px solid #bdd4c1;
+}
+
+.flow {
+    padding-left: 15px;
+}
+
+
+.listPersonas {
+    display: inline;
+    position: relative;
+    z-index: -1;
+    float: right;
+    width:80%;
+    padding: 10px 0 0 0;
+    list-style-position: inside;
 }
 
 .persona {
-    font-size:17px;
+    width: 70px;
+    height: 70px;
 }
 
-#banner {
-    z-index: 100; /*livelli*/
-    left: 7%;
-    right: 43%;
-    height: 50px;
-    margin-right: -382px;
-    position: fixed;
-    top: 115px;
-    background: #edd364;
-    border: 1px solid #f0b500;
-    border-radius: 0px 2px 2px 0px;
-    padding-right: 10px;
+.nome{
+    padding-left: 9px;
 }
 
-#banner .button {
-    border: 1px solid #dba500;
-    background: #ffe788;
-    border-radius: 2px;
-    background-color: #FFE788;
-    margin-left: 5px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height: 14px;
-    font-size: 14px;
-    color: #333;
-    font-weight: bold;
-    display: inline-block;
-    text-align: center;
-}
-
-#banner .button:hover {
-    background: #ffe788;
-    background-color: #ffeca0;
-}
-
-#banner .fork {
-    position: fixed;
-    left: 50%;
-    margin-left: -325px;
-    padding: 10px 12px;
-    margin-top: 6px;
-    line-height: 14px;
-    font-size: 14px;
-    background-color: #FFE788;
-}
-
-
-#banner #logo {
-    position: absolute;
-    height: 36px;
-    width: 36px;
-    right: 7px;
-    top: 7px;
-    display: block;
-    background: url(../images/octocat-logo.png);
-}
-
-a {
-    color: #3399cc;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-
-.wrapper {
-    width: 650px;
-    margin: 0 auto;
-    position: relative;
-}
-
-
-section {
-    width: 620px;
-    padding: 30px 30px 50px 30px;
-    margin: 20px 0;
-    margin-top: 190px;
-    position: relative;
-    background: #fbfbfb;
-    border-radius: 3px;
-    border: 1px solid #cbcbcb;
-}
-
-nav {
-    width: 230px;
-    position: fixed;
-    top: 220px;
-    left: 50%;
-    margin-left: -580px;
-    text-align: right;
-}
-
-nav li{
-    display: none;
-}
-
-.nav .current {
-    display: block;
-}
-
-nav ul {
-    list-style: none;
-    list-style-image: none;
-    font-size: 14px;
-    line-height: 24px;
-    overflow: hidden;
-
-}
-
-nav ul li {
-    padding: 5px 0px;
-    line-height: 16px;
-    display: inline-block;
-}
-
-nav ul li.tag-h1 {
-    font-size: 1.2em;
-}
-
-nav ul li.tag-h1 a {
-    font-weight: bold;
-    color: #333;
-}
-
-nav ul li.tag-h2 + .tag-h1 {
-    margin-top: 10px;
-}
-
-nav ul a {
-    color: #666;
-}
-
-nav ul a:hover {
-    color: #999;
-}
-
-.nav ul:hover .current {
-    background: url(.../images/icon-check.png) no-repeat 10px 7px;
-}
-
-/*footer {*/
-    /*width: 180px;*/
-    /*position: fixed;*/
-    /*left: 50%;*/
-    /*margin-left: -530px;*/
-    /*bottom: 20px;*/
-    /*text-align: right;*/
-    /*line-height: 16px;*/
-/*}*/
-
-img[alt=diagram1] {
-    width: 50%;
-}
-
-.anchor
-{
-    display: block;
-    position: relative;
-    top: -180px;
-    visibility: hidden;
-}
-
-.subsection
-{
-    border: 0;
-    outline: none;
-    background: transparent url("../images/hr.gif") bottom center repeat-x;
-    padding-bottom: 20px;
-}
-
-.subsection:last-of-type
-{
-    border: 0;
-    outline: none;
-    padding-bottom: 20px;
-    background: transparent;
-}
