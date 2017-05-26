@@ -3,32 +3,35 @@ body{
 }
 
 .navbar {
-    position: fixed;
-    width:100%;
-
+     position: fixed;
+     width:100%;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #18562c;
-
+    box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.2);
 }
 
 .navbar li { float: right; }
 
 .navbar li a {
-    display: block;
+    display: inline-block;
     color: #bdd4c1;
     text-align: center;
-    text-decoration: none;
     padding: 25px 30px;
+
+    text-decoration: none;
     font-family: Verdana, sans-serif;
     letter-spacing: 2px;
     font-size: 15px;
 }
 
-.navbar li a:hover { background-color: #349454;
+.navbar li a:hover {
+    background-color: #349454;
     color: #ffffff;}
+
+
 
 .subseciton {
     padding: 30px 13% 50px;
